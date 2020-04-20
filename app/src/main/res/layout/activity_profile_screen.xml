@@ -14,8 +14,9 @@
         android:layout_marginTop="111px"
         android:layout_marginLeft="72px"
         android:clickable="true"/>
-    
+
     <Button
+        android:id="@+id/btnEditProfile"
         android:layout_width="297px"
         android:layout_height="96px"
         android:layout_marginTop="-90px"
@@ -36,7 +37,7 @@
         app:civ_border_color="#FEA700"
         android:layout_marginTop="120px"
         android:layout_marginLeft="393px"/>
-    
+
     <TextView
         android:layout_width="414px"
         android:layout_height="96px"
@@ -46,14 +47,14 @@
         android:textAlignment="center"
         android:textSize="54px"
         android:textColor="@color/colorWhite"/>
-    
+
     <ImageView
         android:layout_width="150px"
         android:layout_height="150px"
         android:layout_marginTop="200px"
         android:layout_marginLeft="138px"
         android:src="@drawable/acc"/>
-    
+
     <TextView
         android:layout_width="180px"
         android:layout_height="81px"
@@ -114,7 +115,7 @@
         android:layout_height="150px"
         android:layout_marginTop="48px"
         android:layout_marginLeft="138px"
-        android:src="@drawable/Phone"/>
+        android:src="@drawable/phone"/>
 
     <TextView
         android:layout_width="180px"
