@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+    <!--    tools:context=".SignUpActivity">-->
+
+    <ImageView
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:src="@drawable/button_back"
+        android:layout_marginTop="111px"
+        android:layout_marginLeft="72px"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="297px"
+        android:layout_height="96px"
+        android:layout_marginTop="-70px"
+        android:layout_marginLeft="393px"
+        android:background="@color/colorBlue"
+        android:text="Edit Profile"
+        android:textSize="48px"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:clickable="true"/>
+    
+    <ImageView
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:src="@drawable/button_check"
+        android:layout_marginTop="-120px"
+        android:layout_marginLeft="930px"
+        android:clickable="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="294px"
+        android:layout_height="294px"
+        android:src="@drawable/contohprofile"
+        app:civ_border_width="9px"
+        app:civ_border_color="#FEA700"
+        android:layout_marginTop="160px"
+        android:layout_marginLeft="393px"/>
+
+    <ImageView
+        android:layout_width="87px"
+        android:layout_height="87px"
+        android:src="@drawable/camera"
+        android:layout_marginTop="-80px"
+        android:layout_marginLeft="612px"
+        android:clickable="true"/>
+
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_marginTop="350px"
+        android:layout_marginLeft="138px"
+        android:src="@drawable/acc"/>
+
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="81px"
+        android:layout_marginTop="-150px"
+        android:layout_marginLeft="293px"
+        android:text="Full name"
+        android:textSize="40px"
+        android:textColor="@color/colorBlue"/>
+
+    <EditText
+        android:layout_width="648px"
+        android:layout_height="95px"
+        android:layout_marginTop="-30px"
+        android:layout_marginLeft="285px"
+        android:hint="Rividya Permata Aluna"
+        android:textSize="36px"
+        android:textColorHint="@color/colorBlue"/>
+
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_marginTop="48px"
+        android:layout_marginLeft="138px"
+        android:src="@drawable/mail"/>
+
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="81px"
+        android:layout_marginTop="-150px"
+        android:layout_marginLeft="293px"
+        android:text="Email"
+        android:textSize="40px"
+        android:textColor="@color/colorBlue"/>
+
+    <EditText
+        android:layout_width="648px"
+        android:layout_height="95px"
+        android:layout_marginTop="-30px"
+        android:layout_marginLeft="285px"
+        android:hint="ivyaluna8@gmail.com"
+        android:textSize="36px"
+        android:textColorHint="@color/colorBlue"/>
+
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_marginTop="48px"
+        android:layout_marginLeft="138px"
+        android:src="@drawable/Phone"/>
+
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="81px"
+        android:layout_marginTop="-150px"
+        android:layout_marginLeft="293px"
+        android:text="Phone"
+        android:textSize="40px"
+        android:textColor="@color/colorBlue"/>
+
+    <EditText
+        android:layout_width="648px"
+        android:layout_height="95px"
+        android:layout_marginTop="-30px"
+        android:layout_marginLeft="285px"
+        android:hint="0812345678901"
+        android:textSize="36px"
+        android:textColorHint="@color/colorBlue"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_marginTop="48px"
+        android:layout_marginLeft="138px"
+        android:src="@drawable/address"/>
+
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="81px"
+        android:layout_marginTop="-150px"
+        android:layout_marginLeft="293px"
+        android:text="Address"
+        android:textSize="40px"
+        android:textColor="@color/colorBlue"/>
+
+    <EditText
+        android:layout_width="648px"
+        android:layout_height="95px"
+        android:layout_marginTop="-30px"
+        android:layout_marginLeft="285px"
+        android:hint="Unpad,Jatinangor"
+        android:textSize="36px"
+        android:textColorHint="@color/colorBlue"/>
+
+</LinearLayout>
