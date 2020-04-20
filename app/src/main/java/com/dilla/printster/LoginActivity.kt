@@ -27,6 +27,8 @@ class LoginActivity : AppCompatActivity() {
                 txt_pass.requestFocus()
                 return@setOnClickListener
             }
+//          Pindah ke halaman menu
+
         }
     }
 }
