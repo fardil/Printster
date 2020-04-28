@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileScreenActivity"></activity>
+        <activity android:name=".Payment"></activity>
+        <activity android:name=".ChooseVendor" />
+        <activity android:name=".PaymentMethod" />
+        <activity android:name=".FinishDesign" />
+        <activity android:name=".Size" />
+        <activity android:name=".backDesign" />
+        <activity android:name=".FrontDesign" />
+        <activity android:name=".ProfileScreenActivity" />
         <activity android:name=".FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EditProfileActivity"/>
+        <activity android:name=".EditProfileActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity" />
     </application>

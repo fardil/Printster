@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".FrontDesign">
+
+    <ImageView
+        android:layout_width="96px"
+        android:layout_height="72px"
+        android:src="@drawable/button_navbar"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="111px"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="675px"
+        android:layout_height="96px"
+        android:layout_marginTop="105px"
+        android:layout_marginLeft="204px"
+        android:text="Design"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"/>
+    
+    <ImageView
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:layout_marginTop="120px"
+        android:layout_marginLeft="933px"
+        android:src="@drawable/button_next"/>
+
+    <ImageView
+        android:layout_width="903px"
+        android:layout_height="1038px"
+        android:layout_marginTop="405px"
+        android:src="@drawable/kaos"/>
+    
+    <ImageView
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_marginLeft="933px"
+        android:layout_marginTop="594px"
+        android:background="@color/colorBlack"/>
+
+    <ImageView
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_marginLeft="933px"
+        android:layout_marginTop="732px"
+        android:background="@color/colorCream"/>
+
+    <ImageView
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_marginLeft="933px"
+        android:layout_marginTop="870px"
+        android:background="@color/colorRed"/>
+
+    <ImageView
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_marginLeft="933px"
+        android:layout_marginTop="1008px"
+        android:background="@color/colorYellow1"/>
+
+    <ImageView
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_marginLeft="933px"
+        android:layout_marginTop="1146px"
+        android:background="@color/colorGreen"/>
+
+    <ImageView
+        android:layout_width="78px"
+        android:layout_height="78px"
+        android:layout_marginLeft="933px"
+        android:layout_marginTop="1284px"
+        android:background="@color/colorBrightBlue"/>
+
+
+    <FrameLayout
+        android:layout_width="216px"
+        android:layout_height="216px"
+        android:background="@drawable/edit_btn_design"
+        android:layout_marginTop="1704px"
+        android:clickable="true"/>
+    
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:src="@drawable/buttonshirt"
+        android:layout_marginTop="1722px"
+        android:layout_marginLeft="51px"/>
+    
+    <TextView
+        android:layout_width="216px"
+        android:layout_height="72px"
+        android:text="shirt"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:textSize="42px"
+        android:layout_marginTop="1842px"/>
+
+    <FrameLayout
+        android:layout_width="216px"
+        android:layout_height="216px"
+        android:background="@drawable/edit_btn_design"
+        android:layout_marginTop="1704px"
+        android:layout_marginLeft="216px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:src="@drawable/buttonimage"
+        android:layout_marginTop="1722px"
+        android:layout_marginLeft="273px"/>
+
+    <TextView
+        android:layout_width="216px"
+        android:layout_height="72px"
+        android:text="image"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:textSize="42px"
+        android:layout_marginTop="1842px"
+        android:layout_marginLeft="216px"/>
+
+    <FrameLayout
+        android:layout_width="216px"
+        android:layout_height="216px"
+        android:background="@drawable/edit_btn_design"
+        android:layout_marginTop="1704px"
+        android:layout_marginLeft="432px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:src="@drawable/buttonshape"
+        android:layout_marginTop="1722px"
+        android:layout_marginLeft="480px"/>
+
+    <TextView
+        android:layout_width="216px"
+        android:layout_height="72px"
+        android:text="shape"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:textSize="42px"
+        android:layout_marginTop="1842px"
+        android:layout_marginLeft="432px"/>
+
+    <FrameLayout
+        android:layout_width="216px"
+        android:layout_height="216px"
+        android:background="@drawable/edit_btn_design"
+        android:layout_marginTop="1704px"
+        android:layout_marginLeft="648px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:src="@drawable/buttontext"
+        android:layout_marginTop="1722px"
+        android:layout_marginLeft="700px"/>
+
+    <TextView
+        android:layout_width="216px"
+        android:layout_height="72px"
+        android:text="text"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:textSize="42px"
+        android:layout_marginTop="1842px"
+        android:layout_marginLeft="648px"/>
+
+    <FrameLayout
+        android:layout_width="216px"
+        android:layout_height="216px"
+        android:background="@drawable/edit_btn_design"
+        android:layout_marginTop="1704px"
+        android:layout_marginLeft="864px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:src="@drawable/buttonreset"
+        android:layout_marginTop="1722px"
+        android:layout_marginLeft="912px"/>
+
+    <TextView
+        android:layout_width="216px"
+        android:layout_height="72px"
+        android:text="reset"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:textSize="42px"
+        android:layout_marginTop="1842px"
+        android:layout_marginLeft="864px"/>
+
+
+</RelativeLayout>

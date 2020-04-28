@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    android:orientation="vertical"
+    tools:context=".Size">
+
+    <ImageView
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:src="@drawable/button_back_blue"
+        android:layout_marginLeft="42px"
+        android:layout_marginTop="99px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="588px"
+        android:layout_height="675px"
+        android:src="@drawable/kaos"
+        android:layout_marginLeft="246px"
+        android:layout_marginTop="-100px"/>
+    
+    <ImageView
+        android:layout_width="726px"
+        android:layout_height="906px"
+        android:src="@drawable/kaosBelakang"
+        android:layout_marginLeft="201px"
+        android:layout_marginTop="-130px"/>
+    
+    <ImageView
+        android:layout_width="162px"
+        android:layout_height="162px"
+        android:background="@drawable/edit_btn_size"
+        android:layout_marginTop="-300px"
+        android:layout_marginLeft="123px"
+        android:src="@drawable/sizechart_logo"/>
+    <TextView
+        android:layout_width="107px"
+        android:layout_height="102px"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="39px"
+        android:text="Size"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"/>
+    
+    <TextView
+        android:layout_width="36px"
+        android:layout_height="126px"
+        android:text="S"
+        android:textSize="66px"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="-110px"/>
+
+    <TextView
+        android:layout_width="60px"
+        android:layout_height="126px"
+        android:text="M"
+        android:textSize="66px"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="-125px"/>
+
+    <TextView
+        android:layout_width="60px"
+        android:layout_height="126px"
+        android:text="L"
+        android:textSize="66px"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="-125px"/>
+    <TextView
+        android:layout_width="80px"
+        android:layout_height="126px"
+        android:text="XL"
+        android:textSize="66px"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:layout_marginLeft="555px"
+        android:layout_marginTop="-125px"/>
+
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="126px"
+        android:text="XXL"
+        android:textSize="66px"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:layout_marginLeft="675px"
+        android:layout_marginTop="-125px"/>
+    
+    <EditText
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:background="@drawable/edit_btn_fill_size"
+        android:layout_marginLeft="175px"/>
+
+    <EditText
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:background="@drawable/edit_btn_fill_size"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="-97px"/>
+
+    <EditText
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:background="@drawable/edit_btn_fill_size"
+        android:layout_marginLeft="425px"
+        android:layout_marginTop="-97px"/>
+
+    <EditText
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:background="@drawable/edit_btn_fill_size"
+        android:layout_marginLeft="550px"
+        android:layout_marginTop="-97px"/>
+
+    <EditText
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:background="@drawable/edit_btn_fill_size"
+        android:layout_marginLeft="675px"
+        android:layout_marginTop="-97px"/>
+
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="102px"
+        android:text="Qty"
+        android:textSize="54px"
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="39px"
+        android:layout_marginTop="-100px"/>
+
+    <ImageView
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:src="@drawable/button_next_blue"
+        android:layout_marginLeft="625px"
+        android:layout_marginTop="-400px"
+        android:clickable="true"/>
+    
+
+
+
+</LinearLayout>

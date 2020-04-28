@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".PaymentMethod">
+
+    <ImageView
+        android:layout_width="93px"
+        android:layout_height="69px"
+        android:src="@drawable/button_back"
+        android:layout_marginLeft="57px"
+        android:layout_marginTop="105px"
+        android:clickable="true"/>
+    
+    <TextView
+        android:layout_width="474px"
+        android:layout_height="72px"
+        android:text="Payment Method"
+        android:textColor="@color/colorWhite"
+        android:textSize="60px"
+        android:layout_marginTop="-80px"
+        android:layout_marginLeft="309px"/>
+    
+    <TextView
+        android:layout_width="255px"
+        android:layout_height="135px"
+        android:text="Transfer"
+        android:textColor="@color/colorBlue"
+        android:textSize="66px"
+        android:layout_marginLeft="414px"
+        android:layout_marginTop="80dp"/>
+    
+    <ImageView
+        android:layout_width="612px"
+        android:layout_height="513px"
+        android:src="@drawable/mandirilogo"
+        android:layout_marginLeft="255px"/>
+
+    <TextView
+        android:layout_width="444px"
+        android:layout_height="111px"
+        android:text="123456789100"
+        android:textColor="@color/colorBlue"
+        android:textSize="60px"
+        android:layout_marginLeft="318px"
+        android:layout_marginTop="70px"/>
+
+    <TextView
+        android:layout_width="710px"
+        android:layout_height="111px"
+        android:text="A.N Rividya Permata Aluna"
+        android:textSize="60px"
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="189px"
+        android:layout_marginTop="20px"/>
+
+    <TextView
+        android:layout_width="579px"
+        android:layout_height="117px"
+        android:background="@drawable/edit_btn_login"
+        android:text="Next"
+        android:textSize="72px"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="252px"/>
+
+    <TextView
+        android:layout_width="576px"
+        android:layout_height="60px"
+        android:text="* Please send payment receipt here :"
+        android:textColor="@color/colorBlue"
+        android:textSize="34px"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="252px"
+        android:textAlignment="center"/>
+    
+    <TextView
+        android:layout_width="432px"
+        android:layout_height="60px"
+        android:text="ivyaluna8@gmail.com"
+        android:textSize="34px"
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="330px"
+        android:textAlignment="center"/>
+
+</LinearLayout>
