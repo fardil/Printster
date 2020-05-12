@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Payment"></activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".Detail" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Review" />
+        <activity android:name=".DetailPesanan" />
+        <activity android:name=".History" />
+        <activity android:name=".Payment" />
         <activity android:name=".ChooseVendor" />
         <activity android:name=".PaymentMethod" />
         <activity android:name=".FinishDesign" />

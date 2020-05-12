@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <ImageView
+        android:layout_width="96px"
+        android:layout_height="72px"
+        android:src="@drawable/button_navbar"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="111px"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="675px"
+        android:layout_height="96px"
+        android:layout_marginTop="105px"
+        android:layout_marginLeft="204px"
+        android:text="Review"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"/>
+
+    <ImageView
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:layout_marginTop="81px"
+        android:layout_marginLeft="858px"
+        android:src="@drawable/logo_printster"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/star1"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="535px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/star1"
+        android:layout_marginLeft="300px"
+        android:layout_marginTop="535px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/star1"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="535px"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/star1"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="535px"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:src="@drawable/star1"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="535px"
+        android:clickable="true"/>
+    
+    <EditText
+        android:layout_width="750px"
+        android:layout_height="111px"
+        android:layout_marginTop="750px"
+        android:layout_marginLeft="150px"
+        android:text="Give us your review!"/>
+    
+    <Button
+        android:layout_width="579px"
+        android:layout_height="117px"
+        android:background="@drawable/edit_btn_login"
+        android:layout_marginLeft="252px"
+        android:layout_marginTop="1587px"
+        android:text="Home"/>
+</RelativeLayout>

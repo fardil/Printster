@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="96px"
+                android:layout_height="72px"
+                android:src="@drawable/button_navbar"
+                android:layout_marginLeft="72px"
+                android:layout_marginTop="111px"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="675px"
+                android:layout_height="96px"
+                android:layout_marginTop="105px"
+                android:layout_marginLeft="204px"
+                android:text="Idea's For You"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:textSize="60px"/>
+
+            <ImageView
+                android:layout_width="144px"
+                android:layout_height="144px"
+                android:layout_marginTop="81px"
+                android:layout_marginLeft="858px"
+                android:src="@drawable/logo_printster"/>
+
+            <FrameLayout
+                android:layout_width="855px"
+                android:layout_height="126px"
+                android:background="@drawable/edit_btn_vendor"
+                android:layout_marginTop="312px"
+                android:layout_marginLeft="114px"/>
+            
+            <ImageView
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:src="@drawable/search"
+                android:layout_marginLeft="135px"
+                android:layout_marginTop="342px"/>
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="621px"
+                android:layout_marginLeft="135px"/>
+
+            <ImageView
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:src="@drawable/kaoshitam"
+                android:layout_marginLeft="135px"
+                android:layout_marginTop="621px"/>
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="621px"
+                android:layout_marginLeft="624px"/>
+
+            <ImageView
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/kaoshijau"
+                android:layout_marginTop="621px"
+                android:layout_marginLeft="624px"/>
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="1149px"
+                android:layout_marginLeft="135px"/>
+
+            <ImageView
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/kaosputih"
+                android:layout_marginTop="1149px"
+                android:layout_marginLeft="135px"/>
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="1149px"
+                android:layout_marginLeft="624px"/>
+
+            <ImageView
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/kaosputih1"
+                android:layout_marginTop="1149px"
+                android:layout_marginLeft="624px"/>
+
+            <FrameLayout
+                android:layout_width="855px"
+                android:layout_height="126px"
+                android:background="@drawable/edit_btn_vendor"
+                android:layout_marginTop="312px"
+                android:layout_marginLeft="114px"/>
+
+            <ImageView
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:src="@drawable/search"
+                android:layout_marginLeft="135px"
+                android:layout_marginTop="342px"/>
+
+            <ImageView
+                android:layout_width="126px"
+                android:layout_height="126px"
+                android:src="@drawable/plus"
+                android:layout_marginLeft="867px"
+                android:layout_marginTop="1674px"/>
+
+
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="2226px"
+                android:layout_marginLeft="135px"/>
+
+            <ImageView
+                android:layout_width="207px"
+                android:layout_height="174px"
+                android:src="@drawable/logo4"
+                android:layout_marginLeft="180px"
+                android:layout_marginTop="2270px"/>
+            
+            <TextView
+                android:layout_width="265px"
+                android:layout_height="90px"
+                android:text="3 Vendor Baju Termurah  Cocok untuk Mahasiswa"
+                android:textColor="@color/colorBlue"
+                android:textSize="24px"
+                android:layout_marginTop="2493px"
+                android:layout_marginLeft="155px"/>
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="2226px"
+                android:layout_marginLeft="624px"/>
+
+            <ImageView
+                android:layout_width="207px"
+                android:layout_height="174px"
+                android:src="@drawable/kaoshitam"
+                android:layout_marginLeft="670px"
+                android:layout_marginTop="2270px"/>
+
+            <TextView
+                android:layout_width="265px"
+                android:layout_height="90px"
+                android:text="5 Desain Kaos Terkeren Khusus Kamu Anak Kepanitiaan"
+                android:textColor="@color/colorBlue"
+                android:textSize="24px"
+                android:layout_marginTop="2493px"
+                android:layout_marginLeft="650px"/>
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="2775px"
+                android:layout_marginLeft="135px"/>
+
+            <ImageView
+                android:layout_width="207px"
+                android:layout_height="174px"
+                android:src="@drawable/palletes"
+                android:layout_marginLeft="180px"
+                android:layout_marginTop="2829px"/>
+
+            <TextView
+                android:layout_width="265px"
+                android:layout_height="90px"
+                android:text="Tips Memilih Warna yang Cocok untuk Acara Kalian"
+                android:textColor="@color/colorBlue"
+                android:textSize="24px"
+                android:layout_marginTop="3038px"
+                android:layout_marginLeft="155px"/>
+
+            <FrameLayout
+                android:layout_width="306px"
+                android:layout_height="414px"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="2775px"
+                android:layout_marginLeft="624px"/>
+
+            <ImageView
+                android:layout_width="207px"
+                android:layout_height="174px"
+                android:src="@drawable/kain"
+                android:layout_marginLeft="670px"
+                android:layout_marginTop="2829px"/>
+
+            <TextView
+                android:layout_width="265px"
+                android:layout_height="90px"
+                android:text="Bahan ini Cocok untuk Kalian yang Suka Beraktivitas di ..."
+                android:textColor="@color/colorBlue"
+                android:textSize="24px"
+                android:layout_marginTop="3038px"
+                android:layout_marginLeft="650px"/>
+
+
+
+            <FrameLayout
+                android:layout_width="276dp"
+                android:layout_height="150dp"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="3675px"
+                android:layout_marginLeft="67dp"
+                android:clickable="true"/>
+
+            <view
+                android:layout_width="680px"
+                android:layout_height="3px"
+                android:layout_marginTop="3885px"
+                android:layout_marginLeft="200px"
+                android:background="@color/colorGrey"/>
+
+            <ImageView
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@drawable/logo3"
+                android:layout_marginLeft="200px"
+                android:layout_marginTop="3720px"/>
+
+            <TextView
+                android:layout_width="410px"
+                android:layout_height="84px"
+                android:layout_marginTop="3735px"
+                android:layout_marginLeft="380px"
+                android:text="Life Clothing Marker"
+                android:textColor="@color/colorBlue"
+                android:textSize="45px"/>
+
+            <TextView
+                android:layout_width="141px"
+                android:layout_height="66px"
+                android:layout_marginTop="3816px"
+                android:layout_marginLeft="380px"
+                android:text="Bandung"
+                android:textColor="@color/colorBlue"
+                android:textSize="32px"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="3893px"
+                android:layout_marginLeft="200px"
+                android:background="@drawable/star"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="3893px"
+                android:layout_marginLeft="230px"
+                android:background="@drawable/star"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="3893px"
+                android:layout_marginLeft="260px"
+                android:background="@drawable/star"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="3893px"
+                android:layout_marginLeft="290px"
+                android:background="@drawable/star"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="3893px"
+                android:layout_marginLeft="320px"
+                android:background="@drawable/star1"/>
+
+            <TextView
+                android:layout_width="700px"
+                android:layout_height="70px"
+                android:layout_marginTop="3960px"
+                android:layout_marginLeft="200px"
+                android:text="Vendornya bagus cepet jadi juga ga rugi udah buat disini, next kaos fix buat disini sih "
+                android:textSize="30px"
+                android:textColor="@color/colorBlue" />
+
+            <FrameLayout
+                android:layout_width="276dp"
+                android:layout_height="150dp"
+                android:background="@drawable/edit_btn_home"
+                android:layout_marginTop="4226px"
+                android:layout_marginLeft="67dp" />
+
+            <view
+                android:layout_width="680px"
+                android:layout_height="3px"
+                android:layout_marginTop="4425px"
+                android:layout_marginLeft="200px"
+                android:background="@color/colorGrey"/>
+
+            <ImageView
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:background="@drawable/logo4"
+                android:layout_marginLeft="200px"
+                android:layout_marginTop="4250px"/>
+
+            <TextView
+                android:layout_width="410px"
+                android:layout_height="84px"
+                android:layout_marginTop="4275px"
+                android:layout_marginLeft="380px"
+                android:text="KOJO Cloth"
+                android:textColor="@color/colorBlue"
+                android:textSize="45px"/>
+
+            <TextView
+                android:layout_width="150px"
+                android:layout_height="66px"
+                android:layout_marginTop="4350px"
+                android:layout_marginLeft="380px"
+                android:text="Jatinangor"
+                android:textColor="@color/colorBlue"
+                android:textSize="32px"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="4440px"
+                android:layout_marginLeft="200px"
+                android:background="@drawable/star"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="4440px"
+                android:layout_marginLeft="230px"
+                android:background="@drawable/star"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="4440px"
+                android:layout_marginLeft="260px"
+                android:background="@drawable/star"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="4440px"
+                android:layout_marginLeft="290px"
+                android:background="@drawable/star1"/>
+
+            <ImageView
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_marginTop="4440px"
+                android:layout_marginLeft="320px"
+                android:background="@drawable/star1"/>
+
+            <TextView
+                android:layout_width="700px"
+                android:layout_height="70px"
+                android:layout_marginTop="4500px"
+                android:layout_marginLeft="200px"
+                android:text="Pembuatan baju sih cepat, cuman harganya agak mahal ya ga cocok buat kantong mahasiswa hehe"
+                android:textSize="30px"
+                android:textColor="@color/colorBlue"
+                />
+        </RelativeLayout>
+
+
+    </ScrollView>
+</LinearLayout>

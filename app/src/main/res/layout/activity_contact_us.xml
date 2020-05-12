@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+
+    <ImageView
+        android:layout_width="96px"
+        android:layout_height="72px"
+        android:src="@drawable/button_navbar"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="111px"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="675px"
+        android:layout_height="96px"
+        android:layout_marginTop="105px"
+        android:layout_marginLeft="204px"
+        android:text="Contact Us"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"/>
+
+    <ImageView
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:layout_marginTop="81px"
+        android:layout_marginLeft="858px"
+        android:src="@drawable/logo_printster"/>
+
+    <EditText
+        android:layout_width="780px"
+        android:layout_height="132px"
+        android:text="Name"
+        android:layout_marginTop="534px"
+        android:layout_marginLeft="150px"/>
+
+    <EditText
+        android:layout_width="780px"
+        android:layout_height="132px"
+        android:text="Email"
+        android:layout_marginTop="700px"
+        android:layout_marginLeft="150px"/>
+
+    <EditText
+        android:layout_width="780px"
+        android:layout_height="486px"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="866px"
+        android:text="Message"
+        android:paddingTop="390px"
+        android:paddingLeft="10px"/>
+
+    <Button
+        android:layout_width="579px"
+        android:layout_height="117px"
+        android:background="@drawable/edit_btn_login"
+        android:layout_marginLeft="252px"
+        android:layout_marginTop="1587px"
+        android:text="Send"/>
+
+</RelativeLayout>
