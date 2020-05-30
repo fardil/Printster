@@ -7,7 +7,7 @@ import retrofit2.http.POST
 
 interface PrintsterInterface {
 
-    @@FormUrlEncoded
+    @FormUrlEncoded
     @POST("login")
     fun userLogin(
         @Field("email") email:String,
