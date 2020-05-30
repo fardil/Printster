@@ -43,10 +43,10 @@ class LoginActivity : AppCompatActivity() {
                     }
 
                     override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
-                        val LoginResponse = response.body()
-                        if(LoginResponse.statusCode == 200 && LoginResponse.message == "login_success"){
+                        //val LoginResponse = response.body()
+                       /* if(LoginResponse.statusCode == 200 && LoginResponse.message == "login_success"){
 
-                            SharedPrefManager.getInstance(applicationContext).saveUser(response.body()?.user!!)
+                            //SharedPrefManager.getInstance(applicationContext).saveUser(response.body()?.user!!)
 
                             val intent = Intent(applicationContext, ProfileScreenActivity::class.java)
                             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
@@ -56,7 +56,7 @@ class LoginActivity : AppCompatActivity() {
 
                         }else{
                             Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
-                        }
+                        }*/
 
                     }
                 })
