@@ -6,18 +6,20 @@ import android.os.Bundle
 import android.widget.Toast
 import com.dilla.printster.api.LoginResponse
 import com.dilla.printster.api.PrintsterService
-import com.dilla.printster.api.SharedPrefManager
+import com.dilla.printster.api.SessionManager
 import kotlinx.android.synthetic.main.activity_login.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
 class LoginActivity : AppCompatActivity() {
-    private lateinit var SharedPrefManager: SharedPrefManager
+    private lateinit var SessionManager: SessionManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        SessionManager = SessionManager(this)
 
         btnLogin.setOnClickListener {
             val email = txt_email.text.toString().trim()
@@ -43,20 +45,18 @@ class LoginActivity : AppCompatActivity() {
                     }
 
                     override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
-                        //val LoginResponse = response.body()
-                       /* if(LoginResponse.statusCode == 200 && LoginResponse.message == "login_success"){
-
-                            //SharedPrefManager.getInstance(applicationContext).saveUser(response.body()?.user!!)
+                        val LoginResponse = response.body()
+                        if(LoginResponse?.code == 200){
+                            SessionManager.saveAuthToken(LoginResponse.token)
 
                             val intent = Intent(applicationContext, ProfileScreenActivity::class.java)
                             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
 
                             startActivity(intent)
-
-
-                        }else{
+                        }
+                        else{
                             Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
-                        }*/
+                        }
 
                     }
                 })

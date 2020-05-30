@@ -6,10 +6,10 @@ data class LoginResponse (
     @SerializedName("message")
     var message: String,
 
-    @SerializedName("status_code")
-    var statusCode: Int,
+    @SerializedName("code")
+    var code: Int,
 
-    @SerializedName("auth_token")
-    var authToken: String
+    @SerializedName("token")
+    var token: String
 
 )
