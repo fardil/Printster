@@ -47,12 +47,13 @@ class LoginActivity : AppCompatActivity() {
                     override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
                         val LoginResponse = response.body()
                         if(LoginResponse?.code == 200){
-                            SessionManager.saveAuthToken(LoginResponse.token)
+                            SessionManager.saveAuthToken(LoginResponse.result?.token)
+                            Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()
 
-                            val intent = Intent(applicationContext, ProfileScreenActivity::class.java)
-                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-
-                            startActivity(intent)
+//                            val intent = Intent(applicationContext, ProfileScreenActivity::class.java)
+//                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+//
+//                            startActivity(intent)
                         }
                         else{
                             Toast.makeText(applicationContext, response.body()?.message, Toast.LENGTH_LONG).show()

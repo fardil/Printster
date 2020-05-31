@@ -2,14 +2,18 @@ package com.dilla.printster.api
 
 import com.google.gson.annotations.SerializedName
 
-data class LoginResponse (
+data class LoginResponse(
     @SerializedName("message")
-    var message: String,
+    val message: String?,
 
     @SerializedName("code")
-    var code: Int,
+    val code: Int?,
 
+    @SerializedName("result")
+    val result: ResponseString?
+)
+
+data class ResponseString(
     @SerializedName("token")
-    var token: String
-
+    val token: String?
 )
