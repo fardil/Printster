@@ -1,5 +1,6 @@
 package com.dilla.printster
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -37,6 +38,10 @@ class SignUpActivity() : AppCompatActivity() {
                 txt_pass.requestFocus()
                 return@setOnClickListener
             }
+
+
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
 
             //if(password.get().toString().equals(confirm_password.view().toString())){
 

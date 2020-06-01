@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    android:orientation="vertical"
+    tools:context=".Vendor">
+
+    <ImageButton
+        android:id="@+id/btnNavBarVendor1"
+        android:clickable="true"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginTop="75px"
+        android:layout_marginLeft="84px"
+        android:background="@color/colorBlue"
+        android:src="@drawable/button_navbar"/>
+
+    <TextView
+        android:layout_width="492px"
+        android:layout_height="96px"
+        android:text="Vendor"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"
+        android:layout_marginLeft="294px"
+        android:layout_marginTop="80px"/>
+
+    <ImageView
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:layout_marginTop="70px"
+        android:layout_marginLeft="858px"
+        android:src="@drawable/logo_printster"/>
+
+
+    <FrameLayout
+        android:layout_width="276dp"
+        android:layout_height="152dp"
+        android:background="@drawable/edit_btn_vendor"
+        android:layout_marginTop="321px"
+        android:layout_marginLeft="67dp"
+        android:clickable="true"/>
+
+    <View
+        android:layout_width="680px"
+        android:layout_height="3px"
+        android:layout_marginTop="500px"
+        android:layout_marginLeft="200px"
+        android:background="@color/colorGrey"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@drawable/logo3"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="335px"/>
+
+    <TextView
+        android:layout_width="410px"
+        android:layout_height="84px"
+        android:layout_marginTop="350px"
+        android:layout_marginLeft="380px"
+        android:text="Life Clothing Marker"
+        android:textColor="@color/colorBlue"
+        android:textSize="45px"/>
+
+    <TextView
+        android:layout_width="141px"
+        android:layout_height="66px"
+        android:layout_marginTop="420px"
+        android:layout_marginLeft="380px"
+        android:text="Bandung"
+        android:textColor="@color/colorBlue"
+        android:textSize="32px"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="230px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="260px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="290px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="320px"
+        android:background="@drawable/star1"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="54px"
+        android:layout_marginTop="545px"
+        android:layout_marginLeft="200px"
+        android:text="Price : 50.000 - 55.000"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="54px"
+        android:layout_marginTop="600px"
+        android:layout_marginLeft="200px"
+        android:text="Phone : 081224567899"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"/>
+
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="54px"
+        android:layout_marginTop="655px"
+        android:layout_marginLeft="200px"
+        android:text="Instagram : lifeclothingmarker"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"/>
+
+
+    <FrameLayout
+        android:layout_width="276dp"
+        android:layout_height="152dp"
+        android:background="@drawable/edit_btn_vendor"
+        android:layout_marginTop="790px"
+        android:layout_marginLeft="67dp"
+        android:clickable="true"/>
+
+    <View
+        android:layout_width="680px"
+        android:layout_height="3px"
+        android:layout_marginTop="960px"
+        android:layout_marginLeft="200px"
+        android:background="@color/colorGrey"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@drawable/logo4"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="800px"/>
+
+    <TextView
+        android:layout_width="410px"
+        android:layout_height="84px"
+        android:layout_marginTop="820px"
+        android:layout_marginLeft="380px"
+        android:text="KOJO Cloth"
+        android:textColor="@color/colorBlue"
+        android:textSize="45px"/>
+
+    <TextView
+        android:layout_width="200px"
+        android:layout_height="66px"
+        android:layout_marginTop="890px"
+        android:layout_marginLeft="380px"
+        android:text="Jatinangor"
+        android:textColor="@color/colorBlue"
+        android:textSize="32px"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="970px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="970px"
+        android:layout_marginLeft="230px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="970px"
+        android:layout_marginLeft="260px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="970px"
+        android:layout_marginLeft="290px"
+        android:background="@drawable/star1"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="970px"
+        android:layout_marginLeft="320px"
+        android:background="@drawable/star1"/>
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="1005px"
+        android:layout_marginLeft="200px"
+        android:text="Price : 60.000 - 155.000"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="1060px"
+        android:layout_marginLeft="200px"
+        android:text="Phone : 081223748290"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="1120px"
+        android:layout_marginLeft="200px"
+        android:text="Instagram : kojocloth"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+
+    <FrameLayout
+        android:layout_width="276dp"
+        android:layout_height="152dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="1259px"
+        android:background="@drawable/edit_btn_vendor"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="680px"
+        android:layout_height="3px"
+        android:layout_marginTop="1430px"
+        android:layout_marginLeft="200px"
+        android:background="@color/colorGrey"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@drawable/logo2"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="1270px"/>
+
+    <TextView
+        android:layout_width="410px"
+        android:layout_height="84px"
+        android:layout_marginTop="1280px"
+        android:layout_marginLeft="380px"
+        android:text="My Thirty"
+        android:textColor="@color/colorBlue"
+        android:textSize="45px"/>
+
+    <TextView
+        android:layout_width="141px"
+        android:layout_height="66px"
+        android:layout_marginTop="1360px"
+        android:layout_marginLeft="380px"
+        android:text="Cibiru"
+        android:textColor="@color/colorBlue"
+        android:textSize="32px"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1440px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1440px"
+        android:layout_marginLeft="230px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1440px"
+        android:layout_marginLeft="260px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1440px"
+        android:layout_marginLeft="290px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1440px"
+        android:layout_marginLeft="320px"
+        android:background="@drawable/star1"/>
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="1475px"
+        android:layout_marginLeft="200px"
+        android:text="Price : 70.000 - 100.000"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="54px"
+        android:layout_marginTop="1530px"
+        android:layout_marginLeft="200px"
+        android:text="Phone : 0832763472849"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue" />
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="1590px"
+        android:layout_marginLeft="200px"
+        android:text="Instagram : mythirty"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue" />
+
+</RelativeLayout>

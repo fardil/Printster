@@ -7,4 +7,9 @@
     <color name="colorYellow">#FEA700</color>
     <color name="colorCream">#989AB3</color>
     <color name="colorWhiteBtn">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorYellow1">#FFFF00</color>
+    <color name="colorBrightBlue">#0000FF</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorGrey">#707070</color>
 </resources>

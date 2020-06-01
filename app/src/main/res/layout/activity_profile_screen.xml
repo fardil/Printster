@@ -5,9 +5,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/background2"
     android:orientation="vertical">
-    <!--    tools:context=".SignUpActivity">-->
+    tool:context=".ProfileScreen">
 
     <ImageView
+        android:id="@+id/btnNavBarProfileScreen"
         android:layout_width="96px"
         android:layout_height="72px"
         android:src="@drawable/button_navbar"
@@ -32,7 +33,7 @@
         android:id="@+id/profile_image"
         android:layout_width="294px"
         android:layout_height="294px"
-        android:src="@drawable/contohprofile"
+        android:src="@color/colorWhite"
         app:civ_border_width="9px"
         app:civ_border_color="#FEA700"
         android:layout_marginTop="120px"
@@ -69,9 +70,9 @@
         android:layout_height="66px"
         android:layout_marginTop="-10px"
         android:layout_marginLeft="291px"
-        android:text="Rividya Permata Aluna"
         android:textSize="36px"
-        android:textColor="@color/colorBlue"/>
+        android:textColor="@color/colorBlue"
+        />
 
     <TableRow
         android:layout_width="648px"
@@ -100,7 +101,6 @@
         android:layout_height="66px"
         android:layout_marginTop="-10px"
         android:layout_marginLeft="291px"
-        android:text="ivyaluna8@gmail.com"
         android:textSize="36px"
         android:textColor="@color/colorBlue"/>
 
@@ -131,7 +131,6 @@
         android:layout_height="66px"
         android:layout_marginTop="-10px"
         android:layout_marginLeft="291px"
-        android:text="0812345678901"
         android:textSize="36px"
         android:textColor="@color/colorBlue"/>
 
@@ -162,7 +161,6 @@
         android:layout_height="66px"
         android:layout_marginTop="-10px"
         android:layout_marginLeft="291px"
-        android:text="Unpad,Jatinangor"
         android:textSize="36px"
         android:textColor="@color/colorBlue"/>
 

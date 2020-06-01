@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background7"
+    android:orientation="vertical">
+    tools:context=".NavigationBar">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="294px"
+        android:layout_height="294px"
+        android:src="@drawable/logo_printster"
+        app:civ_border_width="9px"
+        app:civ_border_color="#FEA700"
+        android:layout_marginTop="120px"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnNavBarHome"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/edit_btn_navbar"
+        android:text="Home"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnNavBarProfile"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/edit_btn_navbar"
+        android:text="Profile"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnNavBarVendor"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/edit_btn_navbar"
+        android:text="Vendor"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnNavBarHistory"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="365dp"
+        android:background="@drawable/edit_btn_navbar"
+        android:text="History"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnNavBarContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/edit_btn_navbar"
+        android:text="Contact Us"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/edit_btn_login"
+        android:text="Sign Out"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:clickable="true"/>
+
+    
+
+</RelativeLayout>

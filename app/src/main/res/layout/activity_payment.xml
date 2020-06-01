@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    android:orientation="vertical"
+    tools:context=".Payment">
+
+    <ImageButton
+        android:id="@+id/btnBackPayment"
+        android:clickable="true"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginTop="60px"
+        android:layout_marginLeft="84px"
+        android:background="@color/colorBlue"
+        android:src="@drawable/button_back"/>
+
+    <TextView
+        android:layout_width="492px"
+        android:layout_height="96px"
+        android:text="Cart"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"
+        android:layout_marginLeft="294px"
+        android:layout_marginTop="75px"/>
+    
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/kaos"/>
+
+    <TextView
+        android:layout_width="108px"
+        android:layout_height="108px"
+        android:layout_marginTop="985px"
+        android:layout_marginLeft="108px"
+        android:text="S"
+        android:textColor="@color/colorBlue"
+        android:textSize="66px"/>
+
+    <TextView
+        android:layout_width="108px"
+        android:layout_height="108px"
+        android:layout_marginTop="1090px"
+        android:layout_marginLeft="108px"
+        android:text="M"
+        android:textColor="@color/colorBlue"
+        android:textSize="66px"/>
+
+    <TextView
+        android:layout_width="108px"
+        android:layout_height="108px"
+        android:layout_marginTop="1195px"
+        android:layout_marginLeft="108px"
+        android:text="L"
+        android:textColor="@color/colorBlue"
+        android:textSize="66px"/>
+
+    <TextView
+        android:layout_width="108px"
+        android:layout_height="108px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="108px"
+        android:text="XL"
+        android:textColor="@color/colorBlue"
+        android:textSize="66px"/>
+
+    <TextView
+        android:layout_width="120px"
+        android:layout_height="108px"
+        android:layout_marginTop="1405px"
+        android:layout_marginLeft="108px"
+        android:text="XXL"
+        android:textColor="@color/colorBlue"
+        android:textSize="66px"/>
+    
+    <View
+        android:layout_width="3px"
+        android:layout_height="570px"
+        android:background="@color/colorGrey"
+        android:layout_marginTop="985px"
+        android:layout_marginLeft="240px"/>
+    
+    <View
+        android:layout_width="876px"
+        android:layout_height="3px"
+        android:layout_marginLeft="108px"
+        android:layout_marginTop="1550px"
+        android:background="@color/colorGrey"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="999"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="985px"
+        android:layout_marginLeft="260px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="999"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1090px"
+        android:layout_marginLeft="260px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="999"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1195px"
+        android:layout_marginLeft="260px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="999"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="260px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="999"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1405px"
+        android:layout_marginLeft="260px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="X"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="985px"
+        android:layout_marginLeft="393px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="X"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1090px"
+        android:layout_marginLeft="393px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="X"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1195px"
+        android:layout_marginLeft="393px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="X"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="393px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="X"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1405px"
+        android:layout_marginLeft="393px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="100.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="985px"
+        android:layout_marginLeft="480px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="100.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1090px"
+        android:layout_marginLeft="480px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="100.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1195px"
+        android:layout_marginLeft="480px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="100.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="480px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="100.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1405px"
+        android:layout_marginLeft="480px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text= "="
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="985px"
+        android:layout_marginLeft="700px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="="
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1090px"
+        android:layout_marginLeft="700px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="="
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1195px"
+        android:layout_marginLeft="700px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:text="="
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="700px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:layout_marginLeft="700px"
+        android:layout_marginTop="1405px"
+        android:text="="
+        android:textColor="@color/colorBlue"
+        android:textSize="54px" />
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text= "999.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="985px"
+        android:layout_marginLeft="750px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="999.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1090px"
+        android:layout_marginLeft="750px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="999.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1195px"
+        android:layout_marginLeft="750px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="999.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="750px"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="1405px"
+        android:text="999.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px" />
+
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="144px"
+        android:text="Total"
+        android:textColor="@color/colorBlue"
+        android:textSize="66px"
+        android:layout_marginLeft="490px"
+        android:layout_marginTop="1550px"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="102px"
+        android:layout_marginLeft="700px"
+        android:layout_marginTop="1560px"
+        android:text="="
+        android:textColor="@color/colorBlue"
+        android:textSize="54px" />
+    
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="102px"
+        android:text="199.900.000"
+        android:textColor="@color/colorBlue"
+        android:textSize="54px"
+        android:layout_marginTop="1560px"
+        android:layout_marginLeft="750px"/>
+    
+    <Button
+        android:id="@+id/btnPaymentMethod"
+        android:clickable="true"
+        android:layout_width="585px"
+        android:layout_height="120px"
+        android:background="@drawable/edit_btn_login"
+        android:text="Check Out"
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="252px"
+        android:layout_marginTop="1704px"/>
+</RelativeLayout>

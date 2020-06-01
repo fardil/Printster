@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <ImageView
+        android:id="@+id/btnNavBarReview"
+        android:layout_width="96px"
+        android:layout_height="72px"
+        android:src="@drawable/button_navbar"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="111px"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="675px"
+        android:layout_height="96px"
+        android:layout_marginTop="105px"
+        android:layout_marginLeft="204px"
+        android:text="Review"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"/>
+
+    <ImageView
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:layout_marginTop="81px"
+        android:layout_marginLeft="858px"
+        android:src="@drawable/logo_printster"/>
+
+    <RatingBar
+        android:id="@+id/rBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="220dp"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        android:background="@color/colorBlue"/>
+    
+    <EditText
+        android:layout_width="750px"
+        android:layout_height="111px"
+        android:layout_marginTop="800px"
+        android:layout_marginLeft="150px"
+        android:hint="Give us your review!"
+        android:textColor="@color/colorBlue"
+        android:textColorHint="@color/colorBlue"/>
+    
+    <Button
+        android:id="@+id/btnReviewHome"
+        android:clickable="true"
+        android:layout_width="579px"
+        android:layout_height="117px"
+        android:background="@drawable/edit_btn_login"
+        android:layout_marginLeft="252px"
+        android:layout_marginTop="1587px"
+        android:text="Submit"
+        android:textColor="@color/colorBlue"/>
+</RelativeLayout>

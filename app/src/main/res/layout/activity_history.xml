@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <ImageView
+        android:id="@+id/btnNavBarHistory1"
+        android:layout_width="96px"
+        android:layout_height="72px"
+        android:src="@drawable/button_navbar"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="111px"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="675px"
+        android:layout_height="96px"
+        android:layout_marginTop="105px"
+        android:layout_marginLeft="204px"
+        android:text="History"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"/>
+
+    <ImageView
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:layout_marginTop="81px"
+        android:layout_marginLeft="858px"
+        android:src="@drawable/logo_printster"/>
+
+
+
+    <ImageView
+        android:id="@+id/btnDetailPurchase"
+        android:clickable="true"
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:layout_marginLeft="51px"
+        android:layout_marginTop="345px"
+        android:src="@drawable/kaoshitam"/>
+
+    <TextView
+        android:layout_width="200px"
+        android:layout_height="81px"
+        android:layout_marginTop="355px"
+        android:layout_marginLeft="312px"
+        android:text="01223458"
+        android:textSize="42px"
+        android:textColor="@color/colorBlue"/>
+
+    <TextView
+        android:layout_width="285px"
+        android:layout_height="81px"
+        android:layout_marginTop="441px"
+        android:layout_marginLeft="312px"
+        android:text="21 - Mei 2020"
+        android:textSize="42px"
+        android:textColor="@color/colorBlue"/>
+
+    <FrameLayout
+        android:layout_width="1080px"
+        android:layout_height="2px"
+        android:layout_marginTop="585px"
+        android:background="@color/colorBlue"/>
+
+
+    <ImageView
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:layout_marginLeft="51px"
+        android:layout_marginTop="642px"
+        android:src="@drawable/kaosputih"/>
+
+    <TextView
+        android:layout_width="200px"
+        android:layout_height="81px"
+        android:layout_marginTop="645px"
+        android:layout_marginLeft="312px"
+        android:text="01224567"
+        android:textSize="42px"
+        android:textColor="@color/colorBlue"/>
+
+    <TextView
+        android:layout_width="285px"
+        android:layout_height="81px"
+        android:layout_marginTop="741px"
+        android:layout_marginLeft="312px"
+        android:text="02 - Mei 2020"
+        android:textSize="42px"
+        android:textColor="@color/colorBlue"/>
+
+    <FrameLayout
+        android:layout_width="1080px"
+        android:layout_height="2px"
+        android:layout_marginTop="900px"
+        android:background="@color/colorBlue"/>
+
+</RelativeLayout>

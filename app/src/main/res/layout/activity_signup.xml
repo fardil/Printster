@@ -25,7 +25,9 @@
         android:elevation="3px"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:paddingLeft="10dp" />
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorBlue"
+        android:textColorHint="@color/colorBlue"/>
 
     <EditText
         android:id="@+id/txt_phonenumber"
@@ -37,7 +39,9 @@
         android:elevation="3px"
         android:hint="Phone Number"
         android:inputType="number"
-        android:paddingLeft="10dp" />
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorBlue"
+        android:textColor="@color/colorBlue"/>
 
     <EditText
         android:id="@+id/txt_pass"
@@ -49,7 +53,9 @@
         android:elevation="3px"
         android:hint="Password"
         android:inputType="textPassword"
-        android:paddingLeft="10dp" />
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorBlue"
+        android:textColorHint="@color/colorBlue"/>
 
     <EditText
         android:id="@+id/txt_confirmpass"
@@ -61,7 +67,9 @@
         android:elevation="3px"
         android:hint="Confirm Password"
         android:inputType="textPassword"
-        android:paddingLeft="10dp" />
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/colorBlue"
+        android:textColor="@color/colorBlue"/>
 
     <Button
         android:id="@+id/btnLoginSignUp"

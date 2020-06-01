@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".FinishDesign">
+
+    <ImageView
+        android:id="@+id/btnFinishDesign"
+        android:clickable="true"
+        android:layout_width="594px"
+        android:layout_height="444px"
+        android:src="@drawable/check"
+        android:layout_marginLeft="243px"
+        android:layout_marginTop="615px"/>
+    
+    <TextView
+        android:layout_width="792px"
+        android:layout_height="147px"
+        android:text="Pesanan Telah Dibuat"
+        android:textColor="@color/colorBlue"
+        android:textSize="78px"
+        android:textStyle="bold"
+        android:layout_marginLeft="144px"
+        android:layout_marginTop="10px"/>
+    
+</LinearLayout>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    android:orientation="vertical"
+    tools:context=".ChooseVendor">
+
+    <ImageButton
+        android:id="@+id/btnBackChooseVendor"
+        android:clickable="true"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginTop="60px"
+        android:layout_marginLeft="84px"
+        android:background="@color/colorBlue"
+        android:src="@drawable/button_back"/>
+    
+    <TextView
+        android:layout_width="492px"
+        android:layout_height="96px"
+        android:text="Choose a Vendor!"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="60px"
+        android:layout_marginLeft="294px"
+        android:layout_marginTop="75px"/>
+
+    <FrameLayout
+        android:id="@+id/btnVendor1"
+        android:layout_width="276dp"
+        android:layout_height="113dp"
+        android:background="@drawable/edit_btn_vendor"
+        android:layout_marginTop="321px"
+        android:layout_marginLeft="67dp"
+        android:clickable="true"/>
+    
+    <View
+        android:layout_width="680px"
+        android:layout_height="3px"
+        android:layout_marginTop="500px"
+        android:layout_marginLeft="200px"
+        android:background="@color/colorGrey"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@drawable/logo3"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="335px"/>
+    
+    <TextView
+        android:layout_width="410px"
+        android:layout_height="84px"
+        android:layout_marginTop="350px"
+        android:layout_marginLeft="380px"
+        android:text="Life Clothing Marker"
+        android:textColor="@color/colorBlue"
+        android:textSize="45px"/>
+
+    <TextView
+        android:layout_width="141px"
+        android:layout_height="66px"
+        android:layout_marginTop="420px"
+        android:layout_marginLeft="380px"
+        android:text="Bandung"
+        android:textColor="@color/colorBlue"
+        android:textSize="32px"/>
+    
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="230px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="260px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="290px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="510px"
+        android:layout_marginLeft="320px"
+        android:background="@drawable/star1"/>
+
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="54px"
+        android:layout_marginTop="545px"
+        android:layout_marginLeft="200px"
+        android:text="Price : 50.000 - 55.000"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+    <FrameLayout
+        android:id="@+id/btnVendor2"
+        android:layout_width="276dp"
+        android:layout_height="113dp"
+        android:background="@drawable/edit_btn_vendor"
+        android:layout_marginTop="721px"
+        android:layout_marginLeft="67dp"
+        android:clickable="true"/>
+
+    <View
+        android:layout_width="680px"
+        android:layout_height="3px"
+        android:layout_marginTop="900px"
+        android:layout_marginLeft="200px"
+        android:background="@color/colorGrey"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@drawable/logo4"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="735px"/>
+
+    <TextView
+        android:layout_width="410px"
+        android:layout_height="84px"
+        android:layout_marginTop="750px"
+        android:layout_marginLeft="380px"
+        android:text="KOJO Cloth"
+        android:textColor="@color/colorBlue"
+        android:textSize="45px"/>
+
+    <TextView
+        android:layout_width="200px"
+        android:layout_height="66px"
+        android:layout_marginTop="820px"
+        android:layout_marginLeft="380px"
+        android:text="Jatinangor"
+        android:textColor="@color/colorBlue"
+        android:textSize="32px"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="910px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="910px"
+        android:layout_marginLeft="230px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="910px"
+        android:layout_marginLeft="260px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="910px"
+        android:layout_marginLeft="290px"
+        android:background="@drawable/star1"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="910px"
+        android:layout_marginLeft="320px"
+        android:background="@drawable/star1"/>
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="945px"
+        android:layout_marginLeft="200px"
+        android:text="Price : 60.000 - 155.000"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+    <FrameLayout
+        android:id="@+id/btnVendor3"
+        android:layout_width="276dp"
+        android:layout_height="113dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="1121px"
+        android:background="@drawable/edit_btn_vendor"
+        android:clickable="true" />
+
+    <View
+        android:layout_width="680px"
+        android:layout_height="3px"
+        android:layout_marginTop="1300px"
+        android:layout_marginLeft="200px"
+        android:background="@color/colorGrey"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@drawable/logo2"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="1135px"/>
+
+    <TextView
+        android:layout_width="410px"
+        android:layout_height="84px"
+        android:layout_marginTop="1150px"
+        android:layout_marginLeft="380px"
+        android:text="My Thirty"
+        android:textColor="@color/colorBlue"
+        android:textSize="45px"/>
+
+    <TextView
+        android:layout_width="141px"
+        android:layout_height="66px"
+        android:layout_marginTop="1220px"
+        android:layout_marginLeft="380px"
+        android:text="Cibiru"
+        android:textColor="@color/colorBlue"
+        android:textSize="32px"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1310px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1310px"
+        android:layout_marginLeft="230px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1310px"
+        android:layout_marginLeft="260px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1310px"
+        android:layout_marginLeft="290px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1310px"
+        android:layout_marginLeft="320px"
+        android:background="@drawable/star1"/>
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="1345px"
+        android:layout_marginLeft="200px"
+        android:text="Price : 70.000 - 100.000"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+    <FrameLayout
+        android:id="@+id/btnVendor4"
+        android:layout_width="276dp"
+        android:layout_height="113dp"
+        android:background="@drawable/edit_btn_vendor"
+        android:layout_marginTop="1521px"
+        android:layout_marginLeft="67dp"
+        android:clickable="true"/>
+
+    <View
+        android:layout_width="680px"
+        android:layout_height="3px"
+        android:layout_marginTop="1700px"
+        android:layout_marginLeft="200px"
+        android:background="@color/colorGrey"/>
+
+    <ImageView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@drawable/logo1"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="1535px"/>
+
+    <TextView
+        android:layout_width="410px"
+        android:layout_height="84px"
+        android:layout_marginTop="1550px"
+        android:layout_marginLeft="380px"
+        android:text="OM Vendor"
+        android:textColor="@color/colorBlue"
+        android:textSize="45px"/>
+
+    <TextView
+        android:layout_width="250px"
+        android:layout_height="66px"
+        android:layout_marginTop="1620px"
+        android:layout_marginLeft="380px"
+        android:text="Soekarno Hatta "
+        android:textColor="@color/colorBlue"
+        android:textSize="32px"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1710px"
+        android:layout_marginLeft="200px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1710px"
+        android:layout_marginLeft="230px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1710px"
+        android:layout_marginLeft="260px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1710px"
+        android:layout_marginLeft="290px"
+        android:background="@drawable/star"/>
+
+    <ImageView
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_marginTop="1710px"
+        android:layout_marginLeft="320px"
+        android:background="@drawable/star"/>
+
+    <TextView
+        android:layout_width="320px"
+        android:layout_height="54px"
+        android:layout_marginTop="1745px"
+        android:layout_marginLeft="200px"
+        android:text="Price : 50.000 - 65.000"
+        android:textSize="30px"
+        android:textColor="@color/colorBlue"
+        />
+
+</RelativeLayout>

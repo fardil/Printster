@@ -5,9 +5,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/background2"
     android:orientation="vertical">
-    <!--    tools:context=".SignUpActivity">-->
+    tools:context=".EditProfile">
 
     <ImageView
+        android:id="@+id/btnBackEditProfile"
         android:layout_width="96px"
         android:layout_height="96px"
         android:src="@drawable/button_back"
@@ -26,8 +27,9 @@
         android:textColor="@color/colorWhite"
         android:textAlignment="center"
         android:clickable="true"/>
-    
+
     <ImageView
+        android:id="@+id/btnFinishEditProfile"
         android:layout_width="96px"
         android:layout_height="96px"
         android:src="@drawable/button_check"
@@ -40,7 +42,7 @@
         android:id="@+id/profile_image"
         android:layout_width="294px"
         android:layout_height="294px"
-        android:src="@drawable/contohprofile"
+        android:src="@color/colorWhite"
         app:civ_border_width="9px"
         app:civ_border_color="#FEA700"
         android:layout_marginTop="160px"
@@ -76,7 +78,7 @@
         android:layout_height="95px"
         android:layout_marginTop="-30px"
         android:layout_marginLeft="285px"
-        android:hint="Rividya Permata Aluna"
+        android:hint="Your Full Name"
         android:textSize="36px"
         android:textColorHint="@color/colorBlue"/>
 
@@ -102,9 +104,10 @@
         android:layout_height="95px"
         android:layout_marginTop="-30px"
         android:layout_marginLeft="285px"
-        android:hint="ivyaluna8@gmail.com"
+        android:hint="Email Address"
         android:textSize="36px"
-        android:textColorHint="@color/colorBlue"/>
+        android:textColorHint="@color/colorBlue"
+        android:inputType="textEmailAddress"/>
 
 
     <ImageView
@@ -128,9 +131,10 @@
         android:layout_height="95px"
         android:layout_marginTop="-30px"
         android:layout_marginLeft="285px"
-        android:hint="0812345678901"
+        android:hint="Phone Number"
         android:textSize="36px"
-        android:textColorHint="@color/colorBlue"/>
+        android:textColorHint="@color/colorBlue"
+        android:inputType="phone|number"/>
 
     <ImageView
         android:layout_width="150px"
@@ -153,7 +157,7 @@
         android:layout_height="95px"
         android:layout_marginTop="-30px"
         android:layout_marginLeft="285px"
-        android:hint="Unpad,Jatinangor"
+        android:hint="Address"
         android:textSize="36px"
         android:textColorHint="@color/colorBlue"/>
 

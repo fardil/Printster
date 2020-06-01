@@ -3,22 +3,22 @@ package com.dilla.printster
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_home.*
-import kotlinx.android.synthetic.main.activity_profile_screen.*
+import kotlinx.android.synthetic.main.activity_first.*
+import kotlinx.android.synthetic.main.activity_front_design.*
 
-class ProfileScreenActivity : AppCompatActivity() {
+class FrontDesign : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile_screen)
+        setContentView(R.layout.activity_front_design)
 
-        btnNavBarProfileScreen.setOnClickListener {
+        btnNavBarFrontDesign.setOnClickListener {
             val intent = Intent(this, NavigationBar::class.java)
             startActivity(intent)
         }
 
-        btnEditProfile.setOnClickListener {
-            val intent = Intent(this, EditProfileActivity::class.java)
+        btnNextFront.setOnClickListener {
+            val intent = Intent(this, backDesign::class.java)
             startActivity(intent)
         }
     }

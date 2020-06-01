@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <ImageView
+        android:id="@+id/btnBackDetail"
+        android:layout_width="96px"
+        android:layout_height="72px"
+        android:src="@drawable/button_back_blue"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="111px"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="675px"
+        android:layout_height="96px"
+        android:layout_marginTop="105px"
+        android:layout_marginLeft="204px"
+        android:text="Detail Pesanan"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:textSize="60px"/>
+
+    <ImageView
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:layout_marginTop="81px"
+        android:layout_marginLeft="858px"
+        android:src="@drawable/logo_printster"/>
+
+    <TextView
+        android:layout_width="351px"
+        android:layout_height="81px"
+        android:text="Status"
+        android:textColor="@color/colorBlue"
+        android:textSize="42px"
+        android:layout_marginTop="396px"
+        android:layout_marginLeft="123px"/>
+
+    <TextView
+        android:layout_width="351px"
+        android:layout_height="81px"
+        android:layout_marginTop="396px"
+        android:layout_marginLeft="615px"
+        android:text="Pesanan Selesai"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
+        android:textAlignment="textEnd"/>
+
+    <FrameLayout
+        android:layout_width="840px"
+        android:layout_height="2px"
+        android:layout_marginTop="471px"
+        android:layout_marginLeft="123px"
+        android:background="@color/colorBlue"/>
+
+    <TextView
+        android:layout_width="351px"
+        android:layout_height="81px"
+        android:text="Tanggal Pesanan"
+        android:textColor="@color/colorBlue"
+        android:textSize="42px"
+        android:layout_marginTop="528px"
+        android:layout_marginLeft="123px"/>
+
+    <TextView
+        android:layout_width="351px"
+        android:layout_height="81px"
+        android:layout_marginTop="528px"
+        android:layout_marginLeft="615px"
+        android:text="21 - Mei - 2020"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="textEnd"/>
+
+    <FrameLayout
+        android:layout_width="840px"
+        android:layout_height="2px"
+        android:layout_marginTop="603px"
+        android:layout_marginLeft="123px"
+        android:background="@color/colorBlue"/>
+
+    <TextView
+        android:layout_width="351px"
+        android:layout_height="81px"
+        android:text="Nomer Invoice"
+        android:textColor="@color/colorBlue"
+        android:textSize="42px"
+        android:layout_marginTop="660px"
+        android:layout_marginLeft="123px"/>
+
+    <TextView
+        android:layout_width="351px"
+        android:layout_height="81px"
+        android:layout_marginTop="660px"
+        android:layout_marginLeft="615px"
+        android:text="01223458"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="textEnd"/>
+
+    <FrameLayout
+        android:layout_width="840px"
+        android:layout_height="2px"
+        android:layout_marginTop="735px"
+        android:layout_marginLeft="123px"
+        android:background="@color/colorBlue"/>
+
+    <FrameLayout
+        android:layout_width="840px"
+        android:layout_height="450px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="912px"
+        android:background="@drawable/edit_btn_detail"/>
+
+    <ImageView
+        android:layout_width="240px"
+        android:layout_height="297px"
+        android:layout_marginLeft="153px"
+        android:layout_marginTop="1008px"
+        android:src="@drawable/kaoshitam"/>
+
+    <TextView
+        android:layout_width="372px"
+        android:layout_height="81px"
+        android:layout_marginLeft="456px"
+        android:layout_marginTop="960px"
+        android:textColor="@color/colorBlue"
+        android:text="Vendor : Kojo Cloth"/>
+
+    <TextView
+        android:layout_width="372px"
+        android:layout_height="81px"
+        android:layout_marginLeft="456px"
+        android:layout_marginTop="1020px"
+        android:textColor="@color/colorBlue"
+        android:text="Jumlah Pesanan"/>
+
+    <TextView
+        android:layout_width="372px"
+        android:layout_height="81px"
+        android:layout_marginLeft="456px"
+        android:layout_marginTop="1086px"
+        android:textColor="@color/colorBlue"
+        android:text="S    M   L   XL  XXL"/>
+
+    <TextView
+        android:layout_width="372px"
+        android:layout_height="81px"
+        android:layout_marginLeft="456px"
+        android:layout_marginTop="1143px"
+        android:textColor="@color/colorBlue"
+        android:text="10 15  16  2   1"/>
+
+    <TextView
+        android:layout_width="372px"
+        android:layout_height="81px"
+        android:layout_marginLeft="456px"
+        android:layout_marginTop="1209px"
+        android:textColor="@color/colorBlue"
+        android:text="Harga : 1.900.000"/>
+    
+    <Button
+        android:id="@+id/btnReview"
+        android:clickable="true"
+        android:layout_width="579px"
+        android:layout_height="117px"
+        android:layout_marginTop="1578px"
+        android:layout_marginLeft="252px"
+        android:background="@drawable/edit_btn_login"
+        android:text="Review"
+        android:textColor="@color/colorBlue"/>
+
+</RelativeLayout>
