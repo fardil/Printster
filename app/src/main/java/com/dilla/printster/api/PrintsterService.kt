@@ -1,7 +1,5 @@
 package com.dilla.printster.api
 
-
-import com.dilla.printster.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.Interceptor
 import okhttp3.logging.HttpLoggingInterceptor
@@ -11,6 +9,36 @@ import retrofit2.converter.gson.GsonConverterFactory
 object PrintsterService {
 
     private const val BASE_URL: String = "http://192.168.1.11/"
+
+    private val okHttpClient = OkHttpClient.Builder()
+        .addInterceptor { chain ->
+            val original = chain.request()
+
+            val requestBuilder = original.newBuilder()
+                .method(original.method(), original.body())
+
+            val request = requestBuilder.build()
+            chain.proceed(request)
+        }.build()
+
+    val instance: PrintsterInterface by lazy {
+        val retrofit = Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .client(okHttpClient)
+            .build()
+
+        retrofit.create(PrintsterInterface::class.java)
+    }
+}
+
+//        val interceptor = HttpLoggingInterceptor()
+//        interceptor.level=HttpLoggingInterceptor.Level.BODY
+//
+//        return OkHttpClient().newBuilder()
+//            .addInterceptor(interceptor)
+//            .build()
+//    }
 
 //    fun getInterceptor() : OkHttpClient {
 //        val logging = HttpLoggingInterceptor()
@@ -35,26 +63,6 @@ object PrintsterService {
 //
 //    fun getService() = getRetrofit().create(PrintsterInterface::class.java)
 //}
-
-
-    fun getInterceptor():OkHttpClient{
-        val interceptor = HttpLoggingInterceptor()
-        interceptor.level=HttpLoggingInterceptor.Level.BODY
-
-        return OkHttpClient().newBuilder()
-            .addInterceptor(interceptor)
-            .build()
-    }
-    val instance: PrintsterService by lazy{
-        val retrofit = Retrofit.Builder()
-            .baseUrl(BASE_URL)
-            .client(getInterceptor())
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-
-        retrofit.create(PrintsterService::class.java)
-    }
-}
 
 //    private var retrofit: Retrofit? = null
 //
