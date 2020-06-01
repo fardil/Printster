@@ -82,29 +82,6 @@ class SignUpActivity() : AppCompatActivity() {
                     }
                 })
         }
-//            val intent = Intent(this, LoginActivity::class.java)
-//            startActivity(intent)
-
-            //if(password.get().toString().equals(confirm_password.view().toString())){
-
-//            PrintsterService.instance.register(email, phone_number, password, confirm_password)
-//                .enqueue(object : Callback<SignUpResponse> {
-//                    override fun onFailure(call: Call<SignUpResponse>, t: Throwable) {
-//                        Toast.makeText(applicationContext, t.message, Toast.LENGTH_LONG).show()
-//                    }
-//
-//                    override fun onResponse(
-//                        call: Call<SignUpResponse>,
-//                        response: Response<SignUpResponse>
-//                    ) {
-//                        Toast.makeText(
-//                            applicationContext,
-//                            response.body()?.message,
-//                            Toast.LENGTH_LONG
-//                        ).show()
-//                    }
-//
-//                })
         }
 
     }
