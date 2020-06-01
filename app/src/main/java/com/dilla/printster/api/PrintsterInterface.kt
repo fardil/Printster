@@ -12,6 +12,15 @@ interface PrintsterInterface {
     fun userLogin(
         @Field("email") email:String,
         @Field("password") password: String
-    ):Call<LoginResponse>
+    ):Call<loginResponse>
+
+    @FormUrlEncoded
+    @POST("register")
+    fun register(
+        @Field("email") email:String,
+        @Field("phone_number") name:String,
+        @Field("password") password:String,
+        @Field("confirm_password") confirm_password:String
+    ):Call<SignUpResponse>
 }
 
