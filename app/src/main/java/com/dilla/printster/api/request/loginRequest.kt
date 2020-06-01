@@ -1,4 +1,4 @@
-package com.dilla.printster.api
+package com.dilla.printster.api.request
 
 data class loginRequest (
     val email: String?,

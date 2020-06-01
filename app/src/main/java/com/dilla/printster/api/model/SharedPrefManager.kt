@@ -1,7 +1,7 @@
-package com.dilla.printster.api
+package com.dilla.printster.api.model
 
 import android.content.Context
-import android.content.SharedPreferences
+import com.dilla.printster.api.result
 
 class SharedPrefManager private constructor(private val mCtx: Context) {
 
@@ -42,7 +42,8 @@ class SharedPrefManager private constructor(private val mCtx: Context) {
         @Synchronized
         fun getInstance(mCtx: Context): SharedPrefManager {
             if (mInstance == null) {
-                mInstance = SharedPrefManager(mCtx)
+                mInstance =
+                    SharedPrefManager(mCtx)
             }
             return mInstance as SharedPrefManager
         }

@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import com.dilla.printster.api.*
-import com.dilla.printster.api.SharedPrefManager.Companion.getInstance
+import com.dilla.printster.api.model.PrintsterInterface
+import com.dilla.printster.api.model.PrintsterService
+import com.dilla.printster.api.request.loginRequest
+import com.dilla.printster.api.response.loginResponse
 import kotlinx.android.synthetic.main.activity_login.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -36,7 +38,8 @@ class LoginActivity : AppCompatActivity() {
             }
 
             val retIn = PrintsterService.getPrintsterService().create(PrintsterInterface::class.java)
-            val loginReq = loginRequest(email,password)
+            val loginReq =
+                loginRequest(email, password)
             retIn.login(loginReq)
                 .enqueue(object: Callback<loginResponse>{
                     override fun onFailure(call: Call<loginResponse>, t: Throwable) {
@@ -50,7 +53,7 @@ class LoginActivity : AppCompatActivity() {
                             Toast.makeText(this@LoginActivity, "Login success!", Toast.LENGTH_SHORT).show()
 
 //                            getInstance(applicationContext).saveToken(response.body()!!.result)
-                            val intent = Intent(applicationContext, ProfileScreenActivity::class.java)
+                            val intent = Intent(applicationContext, Home::class.java)
                             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
 
                             startActivity(intent)

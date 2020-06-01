@@ -1,4 +1,4 @@
-package com.dilla.printster.api
+package com.dilla.printster.api.model
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
