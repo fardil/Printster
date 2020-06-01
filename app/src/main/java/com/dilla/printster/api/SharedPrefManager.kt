@@ -1,13 +1,14 @@
 package com.dilla.printster.api
 
 import android.content.Context
+import android.content.SharedPreferences
 
 class SharedPrefManager private constructor(private val mCtx: Context) {
 
     val isLoggedIn: Boolean
         get() {
             val sharedPreferences = mCtx.getSharedPreferences(SHARED_PREF_NAME, Context.MODE_PRIVATE)
-            return sharedPreferences.getInt("code", 200) != 200
+            return sharedPreferences.getInt("id", -1) != -1
         }
 
     val result: result
