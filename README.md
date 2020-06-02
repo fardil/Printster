@@ -22,6 +22,10 @@ Read srticles about vendors and clothing current updates in article section.
 ### 5.Contact Vendor
 We provide you vendor's contacts so feel free to connect with them and ask questions.
 
+## Prototype
+
+https://xd.adobe.com/view/97f6718d-e960-4217-7b00-4cd6d9a41e63-e1c7/
+
 ## App Developers
 Faradilla Azranur - 140810170001 <br>
 Rividya Permata Aluna - 140810170047 <br>
