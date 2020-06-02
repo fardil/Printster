@@ -6,7 +6,7 @@ Is a mobile application to help you find the perfect clothing vendor nearby for 
 This is an android application built in Android Studio. The app used kotlin as its programming language and APIs as its database. 
 APIs are built in laravel framework.
 
-## Featurs
+## Features
 ### 1. Login 
 Create your account and login to secure the transaction process.
 
